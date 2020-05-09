@@ -3,8 +3,8 @@ name: Docker Image (latest) CI
 on:
   push:
     branches: [ master ]
-#    paths-ignore:
-#      - '*.md'
+    paths-ignore:
+      - '*.md'
 
 jobs:
 
