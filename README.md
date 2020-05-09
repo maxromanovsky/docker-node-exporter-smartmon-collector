@@ -26,3 +26,9 @@ docker run --rm -it -v`pwd`:/var/lib/node_exporter maxromanovsky/node-exporter-s
 - https://github.com/janw/node-exporter-textfile-collector-scripts/blob/master/smartmon.sh
 - https://github.com/prometheus-community/node-exporter-textfile-collector-scripts
 - https://github.com/galexrt/docker-node_exporter-smartmon
+
+## Repository secrets
+
+- DOCKER_PASSWORD
+- DOCKER_USERNAME
+- SLACK_WEBHOOK
